@@ -307,6 +307,30 @@ input::placeholder {
     .container {
         --size3: 70vw;
     }
+
+    
+
+
+    input::placeholder {
+   
+        font-size: .75em;
+        
+        }
+
+        input {
+
+            font-size: .8em;
+         }
+
+    .entendido, .verificar {
+
+        width: calc(var(--size3) * .5);
+        height: calc(var(--size3) * .13);
+     }
+
+     .scanning {
+        font-size: 1.2em;
+     }
 }
 
 @media (orientation: landscape) {
@@ -315,7 +339,6 @@ input::placeholder {
     .container {
         --size3: 35vw;
         align-items: flex-start;
-        padding-top: 5%;
     }
 
     .container .fingerPrint {
