@@ -309,11 +309,13 @@ input::placeholder {
     }
 }
 
-@media (max-width: 1000px) and (orientation: landscape) {
+@media (orientation: landscape) {
 
    
     .container {
         --size3: 35vw;
+        align-items: flex-start;
+        padding-top: 5%;
     }
 
     .container .fingerPrint {
