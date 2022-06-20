@@ -226,7 +226,7 @@ input::placeholder {
     }
 
     50% {
-        height: 380px;
+        height: calc(var(--size3) * .75);
     }
 }
 
@@ -308,8 +308,11 @@ input::placeholder {
         --size3: 70vw;
     }
 
-    
+    .inputBox {
 
+        width: calc(var(--size3) );
+        height: calc(var(--size3) * .87);
+    }
 
     input::placeholder {
    
@@ -353,7 +356,7 @@ input::placeholder {
         }
     
         50% {
-            top: 100%;
+            top: 90%;
         }
     } 
 
@@ -367,7 +370,7 @@ input::placeholder {
    
     .container {
         --size3: 35vw;
-        align-items: flex-start;
+        align-items: flex-start !important;
     }
 
     .container .fingerPrint {

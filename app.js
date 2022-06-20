@@ -70,7 +70,7 @@ verificar.addEventListener('click', ()=>{
                 desfase();
             }
             else {
-                validationResult.textContent = `No hacertaste a ninguna de nuestras dos claves, 
+                validationResult.textContent = `No acertaste a ninguna de nuestras dos claves, 
                 sigue intentando.`;
                 message.style.display = 'flex';
                 message.style.opacity = '1';
